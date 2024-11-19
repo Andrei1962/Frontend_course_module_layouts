@@ -1,0 +1,26 @@
+.header {
+  background-color: #3278ff;
+  margin: 0px;
+  padding: 16px 0;
+}
+.header_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /*margin-right: 20px;
+  margin-left: 20px;*/
+
+}
+.phone {
+  display: block;
+  color: #ffffff;
+  width: 175px;
+  height: 26px;
+  
+}
+.logo {
+  width: 120px;
+  height: 34px;
+  padding-top: 13px;
+  padding-left: 70px;
+}

@@ -1,0 +1,19 @@
+@import "./rezet.css";
+@import "./base.css";
+@import "./header.css";
+@import "./main.css";
+
+body {
+  font-family: "Roboto" , sans-serif;
+  width: 100%;
+  height: 100%;
+}
+.conteiner {
+  width: 100%;
+  height: 100%;
+  /*width: 100%;*/  
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
