@@ -1,197 +1,49 @@
-.main-conteiner {
-  position: absolute;
-  height: calc(100vh - 66px);
-  flex-direction: row;
+.main-wrapper {
+  height: calc(100vh - 82px);
   display: flex;
-  justify-content:space-between;
   align-items: center;
-  width: 1398px;
-  height: 490px;
-  top: 295px;
-  left: 260px;
+  justify-content: center;
   gap: 26px;
   }
 
-.card1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+.card {
   width: 330px;
   height: 490px;
-  border: 2px solid rgba(4, 4, 4, 0.308);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 19px 23px 24px 23px;
+  box-shadow: 1px 1px 4px 0px #000000;
   border-radius: 10px;
+  text-align: center;
 }
 
-.card2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  width: 330px;
-  height: 490px;
-  border: 2px solid rgba(4, 4, 4, 0.308);
-  border-radius: 10px;
-  }
-
-.card3 {
-    display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  width: 330px;
-  height: 490px;
-  border: 2px solid rgba(4, 4, 4, 0.308);
-  border-radius: 10px;
-  }
-
-.card4 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  width: 330px;
-  height: 490px;
-  border: 2px solid rgba(4, 4, 4, 0.308);
-  border-radius: 10px;
-    }
-
-.img1 {
-  
-  width: 181px;
-  height: 274px;
-  top: -2px;
-  left: 59px;
-  margin-bottom: 10px;
+.img {
+  margin-bottom: 16px;
 }
 
-.zagolovok1 {
-  
-  width: 293px;
-  height: 56px;
+.title {
   font-family: "Roboto" , sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 28.13px;
-  text-align: center;
   color: #000;
-  margin-bottom: 5px;
+  margin-bottom: 14px;
 }
 
-.name1 {
-  
-  font-family: "Roboto" , sans-serif;
-  width: 164px;
-  height: 23px;
+.subtitle {
   font-size: 20px;
   font-weight: 400;
   line-height: 23.44px;
-  color: #000;
-  margin: 5px;
 }
 
 .button {
-  width: 141px;
-  height: 34px;
-  /*top: 432px;*/
-  left: 94px;
+  background-color: #3278ff;
+  color: #ffffff;
+  padding: 6px 38px;
   border-radius: 7px;
-  padding-top: 6px;
-  padding-right: 38px;
-  padding-bottom: 6px;
-  padding-left: 38px;
-  margin: 10px;
-  gap: 10px;
-  color: #000000;
-  background-color: rgb(23, 122, 193);
-}
-.img2 {
-  width: 187px;
-  height: 270px;
-  left: 56px;
-  margin-bottom: 10px;
-}
-
-.zagolovok2 {
-  width: 284px;
-  height: 56px;
-  font-family: "Roboto" , sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 28.13px;
-  text-align: center;
-  margin-bottom: 5px;
-  padding-top: 5px;
-  color: #000;
-}
-
-.name2 {
-  width: 167px;
-  height: 23px;
-  font-family: "Roboto" , sans-serif;
   font-size: 20px;
   font-weight: 400;
-  line-height: 23.44px;
-  margin: 5px;
-  color: #000;
-}
-.img3 {
-  width: 190.23px;
-  height: 270px;
-  left: 54px;
-  margin-bottom: 10px;
-}
-
-.zagolovok3 {
-  width: 183px;
-  height: 56px;
-  font-family: "Roboto" , sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 28.13px;
-  text-align: center;
-  margin-bottom: 5px;
-  padding-top: 5px;
-  color: #000;
-}
-
-.name3 {
-  font-family: "Roboto" , sans-serif;
-  width: 174px;
-  height: 23px;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 23.44px;
-  margin: 5px;
-  color: #000;
-}
-.img4{
-  width: 270.87px;
-  height: 270px;
-  left: 14px;
-  margin-bottom: 10px;
-}
-
-.zagolovok4 {
-  width: 175px;
-  height: 56px;
-  font-family: "Roboto" , sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 28.13px;
-  text-align: center;
-  margin-bottom: 5px;
-  padding-top: 5px;
-  color: #000;
-}
-
-.name4 {
-  font-family: "Roboto" , sans-serif;
-  width: 109px;
-  height: 23px;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 23.44px;
-  margin: 5px;
-  color: #000;
+  margin-top: auto;
 }
